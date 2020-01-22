@@ -12,12 +12,12 @@ body {
 p {
     padding: 0 0 20px 0;
     line-height: 1.7em;
-    font: normal 170% 'century gothic', Arial;
+    font: normal 110% 'century gothic', Arial;
     color: antiquewhite;
 }
 
 label {
-    font: normal 170% 'century gothic', Arial;
+    font: normal 60% 'century gothic', Arial;
     color: antiquewhite;
 }
 
@@ -176,4 +176,6 @@ ul.menu li a:hover {
   color: antiquewhite;
 }
 
-
+.sitebar input, textarea {
+    border-radius: 10px;
+}

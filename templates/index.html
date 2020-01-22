@@ -53,7 +53,8 @@
                         text-decoration: none; font: normal 190% 'century gothic', Arial;">Пост</h2>
             <form method="post" action="" >
                     {% csrf_token %}
-                {{ form.as_p }}
+                <label style="font: normal 40% 'century gothic', Arial;
+    color: antiquewhite;">{{ form.as_p }}</label>
                 <div>
                     <button type="submit" class="btn">Опубликовать</button>
                 </div>
