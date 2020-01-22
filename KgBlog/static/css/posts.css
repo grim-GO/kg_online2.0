@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+    background-color: white;
+    color: black;
+}
+
+p {
+    padding: 0 0 20px 0;
+    line-height: 1.7em;
+    font: normal 170% 'century gothic', Arial;
+    color: antiquewhite;
+}
+
+label {
+    font: normal 170% 'century gothic', Arial;
+    color: antiquewhite;
+}
+
+
+
+h1, h2 {
+    font: normal 170% 'century gothic', Arial;
+    color: antiquewhite;
+}
+
+a, a:hover {
+    outline: none;
+    text-decoration: underline;
+    color: darkgreen;
+}
+
+ul {
+    margin: 1px 0 0 17px;
+}
+
+ul li {
+    margin: 0 0 6px 0;
+    padding: 0 0 4px 5px;
+    line-height: 1.4em;
+}
+
+.header {
+    background-color: darkseagreen;
+    height: 165px;
+    font-size: 0.8em;
+    margin-left: 0px;
+    margin-right: 0px;
+    min-width: 900px;
+}
+
+.main, .logo, .menubar, .site_content, .footer {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+  width: 900px;
+  padding-bottom: 40px;
+}
+
+.logo h1, .logo h2 {
+    font: 300% 'century gothic', Arial, sans-serif;
+    margin: 0 0 0 9px;
+}
+
+.logo_text h1, .logo_text h1 a, .logo_text h1 a:hover {
+    padding: 22px 0 0 0;
+    color: antiquewhite;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+}
+
+.logo_text h2 {
+    font-size: 1.3em;
+    padding: 5px 0 0 0;
+    color: darkgreen;
+}
+
+.menubar {
+    width: 900px;
+    height: 48px;
+    margin: 0 0 0 0;
+}
+
+ul.menu {
+   float: right;
+}
+
+ul.menu li {
+    float: left;
+    padding: 1px 5px;
+    list-style: none;
+    margin: 1px 2px 0 0;
+}
+
+ul.menu li a {
+    font: normal 130% 'trebushet ms', sans-serif;
+    display: block;
+    height: 20px;
+    padding: 1px 25px 5px 2px;
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+ul.menu li a:hover {
+    color: aliceblue;
+}
+
+.site_content {
+    width: 1582px;
+    overflow: hidden;
+    margin: 0 auto 0 auto;
+    background-color: white;
+    height: 640px;
+    background-image: url("../img/kgimg1.jpg");
+
+}
+
+.sitebar_container {
+    float: right;
+    width: 224px;
+}
+
+
+
+.btn {
+    padding: 8px;
+    background-color: darkseagreen;
+    cursor: pointer;
+    border-radius: 10px;
+    font: normal 90% 'century gothic', Arial;
+    color: antiquewhite;
+}
+
+.site_message h2 {
+    font: normal 180% 'trebushet ms', sans-serif;
+    display: block;
+    height: 20px;
+    padding: 1px 25px 5px 2px;
+    color: antiquewhite;
+    text-decoration: none;
+    margin: 20px 0 0 0;
+}
+
+.site_message h6 {
+    font: normal 80% 'trebushet ms', sans-serif;
+    display: block;
+    height: 20px;
+    padding: 1px 25px 5px 2px;
+    color: darkgreen;
+    text-decoration: none;
+    margin: 20px 0 0 5px;
+}
+
+.site_message p {
+    font: normal 100% 'trebushet ms', sans-serif;
+    color: antiquewhite;
+    margin: -5px 0;
+}
+
+.site_message {
+    width: 640px;
+    height: auto;
+    padding: 0 0 20px 0;
+    background-color: darkseagreen;
+    border-radius: 15px;  text-decoration: none;
+    margin: 20px 0 0 68px;
+}
+
+.site_message h3 {
+    font: normal 150% 'trebushet ms', sans-serif;
+    display: block;
+    height: 20px;
+    padding: 1px 25px 5px 2px;
+    color: antiquewhite;
+    margin: 15px 0 0 0;
+}

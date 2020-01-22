@@ -1,0 +1,43 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Статьи</title>
+    <meta name="description" content="Kg-online - это социальная сеть кыргызстана" />
+    <meta name="keywords" content="Kg-online, Kg - online, Kgonline, Kg online, кыргызстан онлайн, соцсеть кыргызстана" />
+    <link rel="stylesheet" href="{% static "css/posts.css" %}" type="text/css">
+</head>
+<body>
+<div class="main">
+
+    <div class="header">
+        <div class="logo">
+            <div class="logo_text">
+                <h1><a href="/KgBlog/">Kg - online</a></h1>
+                <h2>Кыргызстан онлайн</h2>
+            </div>
+        </div>
+        <div class="menubar">
+
+            <ul class="menu">
+                <li  class="selected"><a href="/KgBlog/user/">Новости</a></li>
+                <li ><a  href="/KgBlog/">Главная</a></li>
+                <li ><a  href="/KgBlog/posts/">Посты</a></li>
+                <li ><a  href="admin/">Администратор</a></li>
+            </ul>
+
+        </div>
+    </div>
+
+</div>
+
+
+<div class="site_content" style="background-size: cover; background-repeat: no-repeat">
+    <div class="site_message">
+
+    {% for posting in object_list %}
+    <a href="/KgBlog/posts/{{ posting.id }}" style="text-decoration: none;"><h3>{{ posting.post_title }}</h3></a>
+    {% endfor %}
+    </div>
+</div>

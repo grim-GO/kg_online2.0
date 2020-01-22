@@ -1,0 +1,76 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kg-online</title>
+    <meta name="description" content="Kg-online - это социальная сеть кыргызстана" />
+    <meta name="keywords" content="Kg-online, Kg - online, Kgonline, Kg online, кыргызстан онлайн, соцсеть кыргызстана" />
+    <link rel="stylesheet" href="{% static "css/posts.css" %}" type="text/css">
+</head>
+<body>
+<div class="main">
+
+    <div class="header">
+        <div class="logo">
+            <div class="logo_text">
+                <h1><a href="/KgBlog/">Kg - online</a></h1>
+                <h2>Кыргызстан онлайн</h2>
+            </div>
+        </div>
+        <div class="menubar">
+
+            <ul class="menu">
+                <li  class="selected"><a href="/KgBlog/user/">Новости</a></li>
+                <li ><a  href="/KgBlog/">Главная</a></li>
+                <li ><a  href="/KgBlog/posts/">Посты</a></li>
+                <li ><a  href="admin/">Администратор</a></li>
+            </ul>
+
+        </div>
+    </div>
+
+</div>
+
+
+<div class="site_content" style="background-size: cover; background-repeat: no-repeat">
+
+    <div class="sitebar_container">
+
+        <div class="sitebar"
+             style="float: right;
+            width: 605px;
+            padding: 5%;
+            margin: 270px 490px 16px 0;
+            border: solid 1px #f2f2f2;
+            border-radius: 20px;
+            background-color: darkseagreen;">
+                <h2
+                      style="padding: 0 0 0 0; width: 90px;
+                        margin: 0 0;
+                        color: antiquewhite;
+                        letter-spacing: 0.1em;
+                        text-decoration: none; font: normal 190% 'century gothic', Arial;">Пост</h2>
+            <form method="post" action="" >
+                    {% csrf_token %}
+                {{ form.as_p }}
+                <div>
+                    <button type="submit" class="btn">Опубликовать</button>
+                </div>
+            </form>
+
+        </div>
+
+
+    </div>
+
+
+    </div>
+
+
+
+</div>
+
+
+</body>
+</html>
