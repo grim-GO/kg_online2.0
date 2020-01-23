@@ -1,0 +1,1 @@
+web: gunicorn KgOnline1.wsgi --log-file -

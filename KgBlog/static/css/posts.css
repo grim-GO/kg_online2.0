@@ -112,11 +112,11 @@ ul.menu li a:hover {
 }
 
 .site_content {
-    width: 1582px;
+    width: 100%;
     overflow: hidden;
     margin: 0 auto 0 auto;
     background-color: white;
-    height: 640px;
+    height: auto;
     background-image: url("../img/kgimg1.jpg");
 
 }
